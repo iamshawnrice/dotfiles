@@ -263,9 +263,9 @@
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 146 796 473 0 0 1440 877 </string>
+	<string>269 238 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>5 418 570 452 0 0 1440 877 </string>
+	<string>5 180 864 690 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -667,6 +667,10 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>69D59BB0-1EC8-4A62-959A-1AD67E8AF560</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>527364675.89640599</real>
 	<key>PointerActions</key>
@@ -704,6 +708,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/iamshawnrice/Repos/dotfiles</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
