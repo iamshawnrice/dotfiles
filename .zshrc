@@ -29,19 +29,25 @@ alias apacherestart="sudo apachectl -k restart"
 alias hosts="subl /etc/hosts"
 alias httpdconf="subl /usr/local/etc/apache2/2.4/httpd.conf"
 
-alias vhosts="sudo subl /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf"
+alias vhosts="subl /usr/local/etc/apache2/2.4/extra/httpd-vhosts.conf"
 
 alias ze="subl ~/.zshrc"
 alias zr="source ~/.zshrc"
 
 
-showfiles() {
-    defaults write com.apple.finder AppleShowAllFiles YES
-    killall Finder /System/Library/CoreServices/Finder.app
+# custom functions
+
+edithosts() {
+	hosts && vhosts
 }
 
 hidefiles() {
-    defaults write com.apple.finder AppleShowAllFiles NO
-    killall Finder /System/Library/CoreServices/Finder.app
+	defaults write com.apple.finder AppleShowAllFiles NO
+	killall Finder /System/Library/CoreServices/Finder.app
+}
+
+showfiles() {
+	defaults write com.apple.finder AppleShowAllFiles YES
+	killall Finder /System/Library/CoreServices/Finder.app
 }
 
