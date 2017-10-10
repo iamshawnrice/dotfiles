@@ -23,7 +23,8 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-
+alias android-adb="~/Library/Android/sdk/platform-tools/adb"
+alias android-fastboot="~/Library/Android/sdk/platform-tools/fastboot"
 alias apacherestart="sudo apachectl -k restart"
 
 alias hosts="subl /etc/hosts"
@@ -51,3 +52,4 @@ showfiles() {
 	killall Finder /System/Library/CoreServices/Finder.app
 }
 
+sers/iamshawnrice/Library/Android/sdk/platform-tools
