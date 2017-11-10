@@ -1,0 +1,16 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost masterpeace.shopenvee.local sharonharrell.shopenvee.local handcrafteddelivery.dev hglightingdesign.dev wearetherices.dev
+255.255.255.255	broadcasthost
+::1             localhost
+
+
+
+# The following entry is needed on some systems for Monotype SkyFonts.
+# Please do not modify it.
+127.0.0.1 local.skyfonts.com
+
